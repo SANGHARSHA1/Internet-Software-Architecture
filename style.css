@@ -1,0 +1,54 @@
+/* Style for the calculator form */
+form {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input[type="number"],
+  select {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  input[type="button"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style for the result */
+  h2 {
+    text-align: center;
+  }
+  
+  #result {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
